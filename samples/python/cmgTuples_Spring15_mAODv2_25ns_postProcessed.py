@@ -1,4 +1,4 @@
-import copy, os, sys
+import copy, os, sys,ROOT
 from StopsDilepton.tools.localInfo import dataDir
 dir = dataDir 
 
@@ -9,6 +9,7 @@ DY={\
 "DYJetsToLL_M50",
 ],
 'dir' : dir,
+'color': ROOT.kGreen,
 }
 
 DY_LO={\
